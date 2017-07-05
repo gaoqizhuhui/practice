@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>最爱杰伦</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src='js/modernizr-1.6.min.js'></script>
+	<script type="text/javascript" src="js/live.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/basic.css">
+	<style type="text/css">
+		video{width: 700px;height: 500px;margin: 5px auto;}
+		#content{margin: 10px 140px;color: #ffaad5;font-size: 20px;}
+		input{margin-top: 30px;margin-bottom: 0px;font-size: 15px;}
+		#content div{margin:5px auto;}
+		.active{background-color: #ffaad5;}
+		#content div{display: none;}
+	</style>
+</head>
+<body>
+<div id="pages">
+	<div id="header">
+		<header>
+			<img id="logo1" src="images/logo.jpg" alt="周杰伦（Jay）">
+			<img id="logo2" src="images/header.jpg" alt="周杰伦（Jay）">
+
+			<nav>
+				<ul>
+					<li><a href="index.html">主页</a></li>
+					<li><a href="about.html">关于杰伦</a></li>
+					<li><a href="album.html">专辑</a></li>
+					<li><a class="active" href="live.html">最强live</a></li>
+					<li><a href="contact.html">欢迎勾搭</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div id="content">
+		个人最喜欢的live<br>
+		<input type="button" value="音乐无界（逆鳞狂想曲）" class="active">
+		<input type="button" value="金曲奖（无与伦比）" >
+		<input type="button" value="梯田+爸，我回来了">
+		<div id="item1" style="display: block;">
+			<video  src="videos/周杰伦 第16届金曲奖 斗琴表演【音乐无界】.mp4" controls="controls" preload="auto"></video>
+		</div>
+		<div id="item2" >
+			<video  src="videos/当年的周杰伦03年14届金曲奖JAY.mp4" controls="controls" preload="auto"></video>
+		</div>
+		<div id="item3" >
+			<video  src="videos/梯田 爸我回来了 live.mp4" controls="controls" preload="auto"></video>
+		</div>	
+	</div>
+</div>
+</body>
+</html>
